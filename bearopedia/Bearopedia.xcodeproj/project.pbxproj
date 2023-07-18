@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A602225727DD2D1500561FC3 /* sunbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602225627DD2D1400561FC3 /* sunbear.jpg */; };
+		A602225927DD2D6500561FC3 /* asianblackbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602225827DD2D6500561FC3 /* asianblackbear.jpg */; };
+		A602225C27DD2E2300561FC3 /* spectacledbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602225B27DD2E2200561FC3 /* spectacledbear.jpg */; };
+		A602225E27DD2E8200561FC3 /* slothbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602225D27DD2E8200561FC3 /* slothbear.jpg */; };
+		A602226027DD2EE000561FC3 /* americanblackbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602225F27DD2EE000561FC3 /* americanblackbear.jpg */; };
+		A602226227DD2F8200561FC3 /* giantpanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602226127DD2F8200561FC3 /* giantpanda.jpg */; };
+		A602226427DD2FF500561FC3 /* teddybear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A602226327DD2FF500561FC3 /* teddybear.jpg */; };
+		A602226627DE5D9C00561FC3 /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = A602226527DE5D9C00561FC3 /* bear.png */; };
+		A602226E27DF963700561FC3 /* bearsvg.svg in Resources */ = {isa = PBXBuildFile; fileRef = A602226D27DF963700561FC3 /* bearsvg.svg */; };
+		A639FC7027DF9ECA00985F7C /* polarbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A639FC6F27DF9ECA00985F7C /* polarbear.jpg */; };
+		A63E161C27C9290900D9FD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E161B27C9290900D9FD5B /* AppDelegate.swift */; };
+		A63E161E27C9290900D9FD5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E161D27C9290900D9FD5B /* SceneDelegate.swift */; };
+		A63E162327C9290900D9FD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63E162127C9290900D9FD5B /* Main.storyboard */; };
+		A63E162527C9290A00D9FD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63E162427C9290A00D9FD5B /* Assets.xcassets */; };
+		A63E162827C9290A00D9FD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63E162627C9290A00D9FD5B /* LaunchScreen.storyboard */; };
+		A63E163427C92DE300D9FD5B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E163227C92DE300D9FD5B /* CustomTableViewCell.swift */; };
+		A63E163C27C92F4600D9FD5B /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E163B27C92F4600D9FD5B /* Species.swift */; };
+		A63E163E27C92F6600D9FD5B /* Bears.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E163D27C92F6600D9FD5B /* Bears.swift */; };
+		A63E164227C92FDB00D9FD5B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E163F27C92FDB00D9FD5B /* DetailsViewController.swift */; };
+		A63E164327C92FDB00D9FD5B /* BearsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E164027C92FDB00D9FD5B /* BearsTableViewController.swift */; };
+		A63E164427C92FDB00D9FD5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E164127C92FDB00D9FD5B /* ViewController.swift */; };
+		A63E164827C9429E00D9FD5B /* ursidae.xml in Resources */ = {isa = PBXBuildFile; fileRef = A63E164727C9429E00D9FD5B /* ursidae.xml */; };
+		A63E164A27C942F200D9FD5B /* XMLBearsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E164927C942F200D9FD5B /* XMLBearsParser.swift */; };
+		A63E164C27C9515A00D9FD5B /* brownbear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A63E164B27C9515A00D9FD5B /* brownbear.jpg */; };
+		A65B54AB27D8DBF800BC0B5D /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B54AA27D8DBF800BC0B5D /* PopUpViewController.swift */; };
+		A65CE13D27E271070029E067 /* bearwithoutshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A65CE13C27E271070029E067 /* bearwithoutshadow.png */; };
+		A695588727E66C75009C73E2 /* SettingsPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A695588627E66C75009C73E2 /* SettingsPopUpViewController.swift */; };
+		A6960B0827DBBB5000115CEF /* partybear_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A6960B0727DBBB4F00115CEF /* partybear_white.png */; };
+		A6960B1227DBC9C100115CEF /* bear_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A6960B1127DBC9C100115CEF /* bear_white.png */; };
+		A6C80A4F27CDABD800A93F42 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C80A4E27CDABD800A93F42 /* WebBrowserViewController.swift */; };
+		A6D47FCA27E8622E00A83E3B /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6D47FC927E8622E00A83E3B /* koala.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A602225627DD2D1400561FC3 /* sunbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunbear.jpg; sourceTree = "<group>"; };
+		A602225827DD2D6500561FC3 /* asianblackbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asianblackbear.jpg; sourceTree = "<group>"; };
+		A602225B27DD2E2200561FC3 /* spectacledbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spectacledbear.jpg; sourceTree = "<group>"; };
+		A602225D27DD2E8200561FC3 /* slothbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slothbear.jpg; sourceTree = "<group>"; };
+		A602225F27DD2EE000561FC3 /* americanblackbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americanblackbear.jpg; sourceTree = "<group>"; };
+		A602226127DD2F8200561FC3 /* giantpanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giantpanda.jpg; sourceTree = "<group>"; };
+		A602226327DD2FF500561FC3 /* teddybear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddybear.jpg; sourceTree = "<group>"; };
+		A602226527DE5D9C00561FC3 /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		A602226D27DF963700561FC3 /* bearsvg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bearsvg.svg; sourceTree = "<group>"; };
+		A639FC6F27DF9ECA00985F7C /* polarbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polarbear.jpg; sourceTree = "<group>"; };
+		A63E161827C9290900D9FD5B /* Bearopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bearopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63E161B27C9290900D9FD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A63E161D27C9290900D9FD5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A63E162227C9290900D9FD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A63E162427C9290A00D9FD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A63E162727C9290A00D9FD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A63E162927C9290A00D9FD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63E163227C92DE300D9FD5B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A63E163B27C92F4600D9FD5B /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		A63E163D27C92F6600D9FD5B /* Bears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bears.swift; sourceTree = "<group>"; };
+		A63E163F27C92FDB00D9FD5B /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A63E164027C92FDB00D9FD5B /* BearsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BearsTableViewController.swift; sourceTree = "<group>"; };
+		A63E164127C92FDB00D9FD5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A63E164727C9429E00D9FD5B /* ursidae.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ursidae.xml; path = Bearopedia/ursidae.xml; sourceTree = SOURCE_ROOT; };
+		A63E164927C942F200D9FD5B /* XMLBearsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLBearsParser.swift; sourceTree = "<group>"; };
+		A63E164B27C9515A00D9FD5B /* brownbear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownbear.jpg; sourceTree = "<group>"; };
+		A65B54AA27D8DBF800BC0B5D /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		A65CE13C27E271070029E067 /* bearwithoutshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bearwithoutshadow.png; sourceTree = "<group>"; };
+		A695588627E66C75009C73E2 /* SettingsPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopUpViewController.swift; sourceTree = "<group>"; };
+		A6960B0727DBBB4F00115CEF /* partybear_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partybear_white.png; sourceTree = "<group>"; };
+		A6960B1127DBC9C100115CEF /* bear_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear_white.png; sourceTree = "<group>"; };
+		A6C80A4E27CDABD800A93F42 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
+		A6D47FC927E8622E00A83E3B /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koala.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63E161527C9290900D9FD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63E160F27C9290900D9FD5B = {
+			isa = PBXGroup;
+			children = (
+				A63E161A27C9290900D9FD5B /* Bearopedia */,
+				A63E161927C9290900D9FD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63E161927C9290900D9FD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63E161827C9290900D9FD5B /* Bearopedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63E161A27C9290900D9FD5B /* Bearopedia */ = {
+			isa = PBXGroup;
+			children = (
+				A6A5A29B27CCEB25005EFBCA /* Images */,
+				A63E163027C92DC100D9FD5B /* Models */,
+				A63E162F27C92DB500D9FD5B /* Controllers */,
+				A63E161B27C9290900D9FD5B /* AppDelegate.swift */,
+				A63E161D27C9290900D9FD5B /* SceneDelegate.swift */,
+				A63E162127C9290900D9FD5B /* Main.storyboard */,
+				A63E162627C9290A00D9FD5B /* LaunchScreen.storyboard */,
+				A63E162427C9290A00D9FD5B /* Assets.xcassets */,
+				A63E162927C9290A00D9FD5B /* Info.plist */,
+				A63E164727C9429E00D9FD5B /* ursidae.xml */,
+			);
+			path = Bearopedia;
+			sourceTree = "<group>";
+		};
+		A63E162F27C92DB500D9FD5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6C80A4E27CDABD800A93F42 /* WebBrowserViewController.swift */,
+				A63E163227C92DE300D9FD5B /* CustomTableViewCell.swift */,
+				A63E163F27C92FDB00D9FD5B /* DetailsViewController.swift */,
+				A63E164027C92FDB00D9FD5B /* BearsTableViewController.swift */,
+				A65B54AA27D8DBF800BC0B5D /* PopUpViewController.swift */,
+				A63E164127C92FDB00D9FD5B /* ViewController.swift */,
+				A695588627E66C75009C73E2 /* SettingsPopUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A63E163027C92DC100D9FD5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A63E164927C942F200D9FD5B /* XMLBearsParser.swift */,
+				A63E163D27C92F6600D9FD5B /* Bears.swift */,
+				A63E163B27C92F4600D9FD5B /* Species.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6A5A29B27CCEB25005EFBCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A65CE13C27E271070029E067 /* bearwithoutshadow.png */,
+				A602226527DE5D9C00561FC3 /* bear.png */,
+				A6960B1127DBC9C100115CEF /* bear_white.png */,
+				A6960B0727DBBB4F00115CEF /* partybear_white.png */,
+				A639FC6F27DF9ECA00985F7C /* polarbear.jpg */,
+				A602225B27DD2E2200561FC3 /* spectacledbear.jpg */,
+				A602225F27DD2EE000561FC3 /* americanblackbear.jpg */,
+				A63E164B27C9515A00D9FD5B /* brownbear.jpg */,
+				A602226D27DF963700561FC3 /* bearsvg.svg */,
+				A602226327DD2FF500561FC3 /* teddybear.jpg */,
+				A602225627DD2D1400561FC3 /* sunbear.jpg */,
+				A602225D27DD2E8200561FC3 /* slothbear.jpg */,
+				A602226127DD2F8200561FC3 /* giantpanda.jpg */,
+				A602225827DD2D6500561FC3 /* asianblackbear.jpg */,
+				A6D47FC927E8622E00A83E3B /* koala.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63E161727C9290900D9FD5B /* Bearopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63E162C27C9290A00D9FD5B /* Build configuration list for PBXNativeTarget "Bearopedia" */;
+			buildPhases = (
+				A63E161427C9290900D9FD5B /* Sources */,
+				A63E161527C9290900D9FD5B /* Frameworks */,
+				A63E161627C9290900D9FD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bearopedia;
+			productName = EvaGoetzke;
+			productReference = A63E161827C9290900D9FD5B /* Bearopedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63E161027C9290900D9FD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A63E161727C9290900D9FD5B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A63E161327C9290900D9FD5B /* Build configuration list for PBXProject "Bearopedia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63E160F27C9290900D9FD5B;
+			productRefGroup = A63E161927C9290900D9FD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63E161727C9290900D9FD5B /* Bearopedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63E161627C9290900D9FD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63E162827C9290A00D9FD5B /* LaunchScreen.storyboard in Resources */,
+				A602226227DD2F8200561FC3 /* giantpanda.jpg in Resources */,
+				A602226E27DF963700561FC3 /* bearsvg.svg in Resources */,
+				A63E162527C9290A00D9FD5B /* Assets.xcassets in Resources */,
+				A63E162327C9290900D9FD5B /* Main.storyboard in Resources */,
+				A6960B0827DBBB5000115CEF /* partybear_white.png in Resources */,
+				A602225727DD2D1500561FC3 /* sunbear.jpg in Resources */,
+				A602225927DD2D6500561FC3 /* asianblackbear.jpg in Resources */,
+				A6960B1227DBC9C100115CEF /* bear_white.png in Resources */,
+				A602226027DD2EE000561FC3 /* americanblackbear.jpg in Resources */,
+				A63E164827C9429E00D9FD5B /* ursidae.xml in Resources */,
+				A639FC7027DF9ECA00985F7C /* polarbear.jpg in Resources */,
+				A602225E27DD2E8200561FC3 /* slothbear.jpg in Resources */,
+				A602226427DD2FF500561FC3 /* teddybear.jpg in Resources */,
+				A65CE13D27E271070029E067 /* bearwithoutshadow.png in Resources */,
+				A6D47FCA27E8622E00A83E3B /* koala.jpg in Resources */,
+				A63E164C27C9515A00D9FD5B /* brownbear.jpg in Resources */,
+				A602226627DE5D9C00561FC3 /* bear.png in Resources */,
+				A602225C27DD2E2300561FC3 /* spectacledbear.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63E161427C9290900D9FD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63E163C27C92F4600D9FD5B /* Species.swift in Sources */,
+				A63E163427C92DE300D9FD5B /* CustomTableViewCell.swift in Sources */,
+				A6C80A4F27CDABD800A93F42 /* WebBrowserViewController.swift in Sources */,
+				A65B54AB27D8DBF800BC0B5D /* PopUpViewController.swift in Sources */,
+				A695588727E66C75009C73E2 /* SettingsPopUpViewController.swift in Sources */,
+				A63E163E27C92F6600D9FD5B /* Bears.swift in Sources */,
+				A63E161C27C9290900D9FD5B /* AppDelegate.swift in Sources */,
+				A63E161E27C9290900D9FD5B /* SceneDelegate.swift in Sources */,
+				A63E164A27C942F200D9FD5B /* XMLBearsParser.swift in Sources */,
+				A63E164327C92FDB00D9FD5B /* BearsTableViewController.swift in Sources */,
+				A63E164427C92FDB00D9FD5B /* ViewController.swift in Sources */,
+				A63E164227C92FDB00D9FD5B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A63E162127C9290900D9FD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63E162227C9290900D9FD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A63E162627C9290A00D9FD5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63E162727C9290A00D9FD5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63E162A27C9290A00D9FD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A63E162B27C9290A00D9FD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63E162D27C9290A00D9FD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9P6M5B3TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bearopedia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bearopedia;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esg.Bearopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A63E162E27C9290A00D9FD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9P6M5B3TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bearopedia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bearopedia;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esg.Bearopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63E161327C9290900D9FD5B /* Build configuration list for PBXProject "Bearopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63E162A27C9290A00D9FD5B /* Debug */,
+				A63E162B27C9290A00D9FD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63E162C27C9290A00D9FD5B /* Build configuration list for PBXNativeTarget "Bearopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63E162D27C9290A00D9FD5B /* Debug */,
+				A63E162E27C9290A00D9FD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63E161027C9290900D9FD5B /* Project object */;
+}

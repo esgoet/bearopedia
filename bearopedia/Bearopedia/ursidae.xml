@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ursidae>
+<genus>
+<genusName>Ursus</genusName>
+<species>
+    <scientificName>Ursus arctos</scientificName>
+    <commonName>Brown Bear</commonName>
+    <habitats>
+        <habitat>Desert</habitat>
+        <habitat>Forest</habitat>
+        <habitat>Inland Wetlands</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Shrubland</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The brown bear is Finland's national animal.</funFact>
+    <image>brownbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Brown_bear</url>
+</species>
+<species>
+    <scientificName>Ursus americanus</scientificName>
+    <commonName>American Black Bear</commonName>
+    <habitats>
+        <habitat>Forest</habitat>
+        <habitat>Inland Wetlands</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Shrubland</habitat>
+        <habitat>Desert</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The american black bear has 16 subspecies.</funFact>
+    <image>americanblackbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/American_black_bear</url>
+</species>
+<species>
+    <scientificName>Ursus thibetanus</scientificName>
+    <commonName>Asian Black Bear</commonName>
+    <habitats>
+        <habitat>Forest</habitat>
+        <habitat>Inland Wetlands</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Shrubland</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The asian black bear is a cutie pie.</funFact>
+    <image>asianblackbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Asian_black_bear</url>
+</species>
+<species>
+    <scientificName>Ursus maritimus</scientificName>
+    <commonName>Polar Bear</commonName>
+    <habitats>
+        <habitat>Marine Oceanic</habitat>
+        <habitat>Forest</habitat>
+        <habitat>Inland Wetlands</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Shrubland</habitat>
+        <habitat>Marine Intertidal</habitat>
+        <habitat>Supratidal</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The polar bear is the only bear species to live in marine habitats.</funFact>
+    <image>polarbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Polar_bear</url>
+</species>
+</genus>
+<genus>
+<genusName>Ailuropoda</genusName>
+<species>
+    <scientificName>Ailuropoda melanoleuca</scientificName>
+    <commonName>Giant Panda</commonName>
+    <habitats>
+        <habitat>Forest</habitat>
+    </habitats>
+    <diet>Folivorous</diet>
+    <funFact>99% of the giant panda's diet is Bamboo.</funFact>
+    <image>giantpanda.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Giant_panda</url>
+</species>
+</genus>
+<genus>
+<genusName>Tremarctos</genusName>
+<species>
+    <scientificName>Tremarctos ornatus</scientificName>
+    <commonName>Spectacled Bear</commonName>
+    <habitats>
+        <habitat>Shrubland</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Forest</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The fictional Paddington Bear is of the spectacled bear species.</funFact>
+    <image>spectacledbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Spectacled_bear</url>
+</species>
+</genus>
+<genus>
+<genusName>Herlarctos</genusName>
+<species>
+    <scientificName>Herlarctos malayanus</scientificName>
+    <commonName>Sun Bear</commonName>
+    <habitats>
+        <habitat>Shrubland</habitat>
+        <habitat>Forest</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The sun bear likes to eat termites, fruit and honey.</funFact>
+    <image>sunbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Sun_bear</url>
+</species>
+</genus>
+<genus>
+<genusName>Melursis</genusName>
+<species>
+    <scientificName>Melursis ursinus</scientificName>
+    <commonName>Sloth Bear</commonName>
+    <habitats>
+        <habitat>Shrubland</habitat>
+        <habitat>Forest</habitat>
+        <habitat>Grassland</habitat>
+        <habitat>Savanna</habitat>
+    </habitats>
+    <diet>Omnivorous</diet>
+    <funFact>The sun bear likes to eat ants and honey.</funFact>
+    <image>slothbear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Sloth_bear</url>
+</species>
+</genus>
+<genus>
+<genusName>Theodorus</genusName>
+<species>
+    <scientificName>Theodorus ursinus</scientificName>
+    <commonName>Teddy Bear</commonName>
+    <habitats>
+        <habitat>Bedroom</habitat>
+        <habitat>Toy Store</habitat>
+    </habitats>
+    <diet>Dreamovorous</diet>
+    <funFact>The teddy bear is the only bear you can safely cuddle.</funFact>
+    <image>teddybear.jpg</image>
+    <url>https://en.m.wikipedia.org/wiki/Teddy_bear</url>
+</species>
+</genus>
+<genus>
+<genusName>Phascolarctos</genusName>
+<species>
+    <scientificName>Phascolarctos cinereus</scientificName>
+    <commonName>Koala Bear</commonName>
+    <habitats>
+        <habitat>Forest</habitat>
+        <habitat>Woodland</habitat>
+    </habitats>
+    <diet>Herbivorous</diet>
+    <funFact>Despite its commonly given name, the koala bear does actually not belong to the family of bears.</funFact>
+    <image>koala.jpg</image>
+    <url>https://en.wikipedia.org/wiki/Koala</url>
+</species>
+</genus>
+</ursidae>
